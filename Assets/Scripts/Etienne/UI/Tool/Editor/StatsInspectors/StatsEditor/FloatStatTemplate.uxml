@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:Template name="TestTemplate" src="project://database/Assets/Scripts/Etienne/Tool/Editor/StatsInspectors/StatsEditor/TestTemplate.uxml?fileID=9197481963319205126&amp;guid=12c22588b635f93418b394a5f243f806&amp;type=3#TestTemplate" />
+    <ui:Instance template="TestTemplate" name="TestTemplate" />
+</ui:UXML>

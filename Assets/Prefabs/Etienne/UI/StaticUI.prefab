@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &432357390314197684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3908878658209002790}
+  - component: {fileID: 8284230162898270057}
+  - component: {fileID: 6665604284075342385}
+  m_Layer: 5
+  m_Name: StaticUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3908878658209002790
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432357390314197684}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -31.317368, y: -22.950905, z: -15.903463}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8284230162898270057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432357390314197684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: 353459b5e5479294193136c559a233b8, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 0517a31e90b45644fbee0b66de4cf76f, type: 3}
+  m_SortingOrder: 0
+--- !u!114 &6665604284075342385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432357390314197684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b3683f6906e54f4fb6a79e53e8a5c5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_topBoxScript:
+    rid: 860310899156582401
+  m_weaponBoxScript:
+    rid: 860310899156582402
+  references:
+    version: 2
+    RefIds:
+    - rid: 860310899156582401
+      type: {class: UITopBox, ns: SpaceBaboon.UISystem, asm: Assembly-CSharp}
+      data:
+        m_damageSprite: {fileID: 21300000, guid: dfc2c66d775735f408cf7902e25c7887, type: 3}
+        m_rangeSprite: {fileID: 21300000, guid: b5a9298e579815c41b23709a87848581, type: 3}
+        m_speedSprite: {fileID: 21300000, guid: 13281836f49486b42be0ed820873d06e, type: 3}
+        m_zoneSprite: {fileID: 21300000, guid: d65ad80724bc4b04c918912780a7260e, type: 3}
+    - rid: 860310899156582402
+      type: {class: UIWeaponBox, ns: SpaceBaboon.UISystem, asm: Assembly-CSharp}
+      data:
+        m_swordSprite: {fileID: 21300000, guid: 85a11c76ff8d19846a00f75a2085b628, type: 3}
+        m_flameThrowerSprite: {fileID: 21300000, guid: 7084079741e5b264188b663432941e60, type: 3}
+        m_grenadeLauncherSprite: {fileID: 21300000, guid: b0e4353cb85aeb2488032efc668bfcb5, type: 3}
+        m_shockwaveSprite: {fileID: 21300000, guid: 6fc944698831a5646b1f6e4f2331e599, type: 3}
+        m_laserBeamSprite: {fileID: 21300000, guid: 51dd4ac7b2a92634e879eaa657ad6e93, type: 3}

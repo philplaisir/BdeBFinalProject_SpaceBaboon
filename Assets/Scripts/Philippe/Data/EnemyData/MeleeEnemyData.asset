@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c67f2134eb33142bdfa3ca8744ed4a, type: 3}
+  m_Name: MeleeEnemyData
+  m_EditorClassIdentifier: 
+  index: 0
+  characterName: Melee Enemy
+  defaultHealth: 20
+  sprite: {fileID: 0}
+  prefab: {fileID: 3761769005896388766, guid: 43f660af7af529040ae182a2ce02106d, type: 3}
+  defaultAcceleration: 30
+  defaultMaxVelocity: 5
+  dashMaximumVelocity: 0
+  enemyType: 0
+  defaultContactAttackDamage: 10
+  defaultContactAttackDelay: 3
+  distanceBeforeTeleportingCloser: 130
+  healthDropChance: 5

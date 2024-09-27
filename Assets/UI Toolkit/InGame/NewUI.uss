@@ -1,0 +1,41 @@
+.elementBox {
+    border-left-color: rgb(147, 147, 147);
+    border-right-color: rgb(147, 147, 147);
+    border-top-color: rgb(147, 147, 147);
+    border-bottom-color: rgb(147, 147, 147);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    display: flex;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.78);
+    border-left-color: rgb(57, 57, 57);
+    border-right-color: rgb(57, 57, 57);
+    border-top-color: rgb(57, 57, 57);
+    border-bottom-color: rgb(57, 57, 57);
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.skillText {
+    font-size: 140%;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-left;
+}
+
+.skillImage {
+    background-color: rgb(119, 119, 119);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: a823ade8afd2c294393ecf3a50aad6ac
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_floatTemplate: {fileID: 9197481963319205126, guid: 6ecaba2c23141eb45b5febe5ff558365, type: 3}
+  - m_header: {fileID: 9197481963319205126, guid: c11cf5e6fa65873439f2b2bf095d0763, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

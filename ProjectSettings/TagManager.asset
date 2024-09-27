@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Projectile
+  - Obstacle
+  - Wall
+  - Floor
+  - PlayerCam
+  - Structure
+  - DashTrail
+  - PlayerDashingImmunity
+  - Resource
+  - MapFloor
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Background
+  - Forground
+  - Projectile
+  - ImmunityDash
+  - Enemy
+  - EnemyProjectile
+  - ResourceShard
+  - Obstacle
+  - Resource
+  - NavMesh
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: TopSortLayer
+    uniqueID: 3995442123
+    locked: 0
+  - name: DropStationLayer
+    uniqueID: 197324187
+    locked: 0
+  - name: CraftinStationLayer
+    uniqueID: 1269126031
+    locked: 0

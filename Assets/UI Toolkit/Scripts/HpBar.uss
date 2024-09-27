@@ -1,0 +1,39 @@
+.HP {
+}
+
+.unity-progress-bar__container {
+    min-height: 10px;
+    height: 24px;
+}
+
+.unity-progress-bar__background {
+    background-color: rgb(17, 17, 17);
+    border-color: black;
+    border-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.unity-progress-bar__progress {
+    height: 20px;
+    margin: 0;
+    background-color: rgb(159, 255, 11);
+    border-color: green;
+    border-width: 2px;
+    border-radius: 2px;
+    -unity-slice-left: 3;
+    -unity-slice-top: 3;
+    -unity-slice-right: 3;
+    -unity-slice-bottom: 3;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}

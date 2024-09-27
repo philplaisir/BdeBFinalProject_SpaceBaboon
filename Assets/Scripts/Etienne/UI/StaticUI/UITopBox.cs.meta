@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 11ceb0c97b3037044b1d6ed642e63ba7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_damageSprite: {fileID: 21300000, guid: dfc2c66d775735f408cf7902e25c7887, type: 3}
+  - m_rangeSprite: {fileID: 21300000, guid: b5a9298e579815c41b23709a87848581, type: 3}
+  - m_speedSprite: {fileID: 21300000, guid: 13281836f49486b42be0ed820873d06e, type: 3}
+  - m_zoneSprite: {fileID: 21300000, guid: d65ad80724bc4b04c918912780a7260e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

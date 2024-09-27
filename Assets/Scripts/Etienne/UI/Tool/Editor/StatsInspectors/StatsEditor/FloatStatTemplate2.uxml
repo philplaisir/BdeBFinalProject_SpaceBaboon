@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 0; flex-direction: column; flex-shrink: 0; height: 48px; background-color: rgba(0, 0, 0, 0.2); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-top-width: 0; margin-top: 2px; padding-top: 0; margin-bottom: 2px;">
+        <ui:VisualElement name="TopContainer" style="flex-grow: 0; flex-direction: row; min-width: auto; min-height: auto; align-items: stretch; align-self: auto; flex-shrink: 0; height: 50%;">
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" style="font-size: 10px; -unity-text-align: middle-left; -unity-font-style: bold; margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; height: 100%; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BottomContainer" style="flex-grow: 1; flex-direction: row; height: 50%; align-items: stretch;">
+            <ui:Label tabindex="-1" text="Value : " parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; -unity-text-align: middle-left; font-size: 9px; align-self: flex-start; justify-content: center; align-items: stretch; top: 20%;" />
+            <ui:FloatField value="42,2" name="Value" style="flex-direction: column; align-self: flex-end; width: auto; justify-content: flex-start; align-items: stretch; flex-grow: 1; height: 80%; font-size: 11px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

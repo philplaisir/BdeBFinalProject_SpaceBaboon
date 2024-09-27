@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54b8645e89a52d40a49e7beee5081fc, type: 3}
+  m_Name: BossEnemyData
+  m_EditorClassIdentifier: 
+  index: 0
+  characterName: Boss
+  defaultHealth: 50
+  sprite: {fileID: 0}
+  prefab: {fileID: 0}
+  defaultAcceleration: 20
+  defaultMaxVelocity: 15
+  dashMaximumVelocity: 0
+  enemyType: 3
+  defaultContactAttackDamage: 5
+  defaultContactAttackDelay: 3
+  distanceBeforeTeleportingCloser: 0
+  healthDropChance: 0
+  bosses:
+  - bossType: 0
+    animControllerObject: {fileID: 3212775118258285388, guid: 054b8beaae24b6b40b6984b170861462, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    specialProjectilePrefab: {fileID: 7720092425605013616, guid: dd25fd16dbf5318478d286ef18647e55, type: 3}
+  - bossType: 1
+    animControllerObject: {fileID: 3896041885167981650, guid: 1ef5a06288ca9194486ad31e70aea408, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    specialProjectilePrefab: {fileID: 4752045255920560558, guid: c0bbf66d382d5c34e9fc8105f8d7ace5, type: 3}
+  - bossType: 2
+    animControllerObject: {fileID: 8482427591914728906, guid: 75f16fbc2bd3fed4c83c66eef79f1694, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    specialProjectilePrefab: {fileID: 7939948760325525783, guid: 0397391dad3facb47bcd627527532d4b, type: 3}
+  possibleAggroRange: 100
+  playerAggroRange: 50
+  maxAttackRangeTriggerWhenChasingPlayer: 110
+  craftingStationAttackRange: 20
+  craftingStationAttackDelay: 3
+  craftingStationAttackDamage: 10
+  craftingStationAttackFXDistanceThreshold: 5
+  specialAttackDelay: 3
+  specialAttackChargeDelay: 5
+  basicAttackDelay: 2
+  deadOnGroundDelay: 5
+  basicAttacksNeededBeforeSpecial: 3

@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row; max-height: 30px; padding-top: 10px;">
+        <ui:VisualElement name="Generic" style="flex-grow: 1; width: auto; flex-direction: row; align-self: stretch; max-width: 196px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 0;">
+            <ui:Label tabindex="-1" text="Float-type data stats" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" style="align-self: center; flex-direction: row; -unity-text-align: middle-left; -unity-font-style: italic; font-size: 12px; letter-spacing: 10px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Scripts/HpBar.uss?fileID=7433441132597879392&amp;guid=0c89e59f0c46d0d499e1623b8ac2a2fd&amp;type=3#HpBar" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: auto; position: relative; height: auto; min-height: auto;">
+        <ui:ProgressBar value="100" name="HpBar" class="HP" style="top: auto; bottom: auto; right: auto; position: relative; height: 31px; width: auto; left: auto;" />
+    </ui:VisualElement>
+</ui:UXML>

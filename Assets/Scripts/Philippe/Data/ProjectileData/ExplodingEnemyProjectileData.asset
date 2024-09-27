@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca52c82b603efc44a61be1027e39fe6, type: 3}
+  m_Name: ExplodingEnemyProjectileData
+  m_EditorClassIdentifier: 
+  owner: 1
+  sprite: {fileID: 0}
+  projectileName: Exploding Enemy Bomb
+  speed: 0
+  damage: 40
+  maxLifetime: 0.6
+  defaultAcceleration: 0
+  defaultMaxVelocity: 0
+  maxExplosionSize: 1
+  explosionSizeScalingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0017433167
+      value: 0.49996948
+      inSlope: -4.78901
+      outSlope: -4.78901
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.02977233
+    - serializedVersion: 3
+      time: 0.18641071
+      value: 0.15595931
+      inSlope: -0.5382018
+      outSlope: -0.5382018
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.42728668
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.4999804
+      value: 0.001209259
+      inSlope: -0.000000090469285
+      outSlope: -0.000000090469285
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14444515
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

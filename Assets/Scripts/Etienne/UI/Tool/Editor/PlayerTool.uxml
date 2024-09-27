@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Scripts/Etienne/Tool/PlayerToolStyle.uss?fileID=7433441132597879392&amp;guid=213f1603c4c76564eb6ea944ce136a42&amp;type=3#PlayerToolStyle" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Player Adjustment Tool" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" class="header" />
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1">
+            <uie:ObjectField label="Player Reference" type="UnityEngine.Object, UnityEngine.CoreModule" name="PlayerReference" style="-unity-text-align: middle-left;" />
+            <ui:Toggle label="Player invincibility" name="InvincibilityToggle" value="false" style="height: 40px; -unity-text-align: middle-left;" />
+            <ui:FloatField label="Player Speed" value="0" name="PlayerSpeed" style="width: 312px; -unity-text-align: middle-left;" />
+            <ui:Button text="Reset Health To Max Value" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 311px;" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

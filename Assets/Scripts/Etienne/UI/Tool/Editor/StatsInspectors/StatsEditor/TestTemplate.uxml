@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement style="flex-grow: 1; height: auto; flex-direction: column; max-height: 40px;">
+        <ui:VisualElement name="TopContainer" style="flex-grow: 1; height: 50%; flex-direction: row; width: auto;">
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; align-items: stretch; justify-content: flex-start; align-self: auto; width: 40%;">
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" style="align-self: center; flex-direction: row; -unity-text-align: middle-left; flex-grow: 1; -unity-font-style: bold;" />
+            </ui:VisualElement>
+            <ui:VisualElement focusable="false" style="flex-grow: 1; flex-direction: row; align-self: auto; max-width: 60%; flex-wrap: nowrap; justify-content: center;">
+                <ui:FloatField label="Value" value="0" name="Value" focusable="true" style="font-size: 12px; -unity-text-align: middle-left; justify-content: flex-start; align-self: auto; width: 100%; flex-wrap: nowrap; flex-shrink: 0; flex-grow: 1; flex-basis: auto; white-space: nowrap; text-overflow: clip; flex-direction: row; align-items: auto;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="BottomContainer" style="flex-grow: 1; height: 50%; flex-direction: row; align-self: center;">
+            <ui:VisualElement style="flex-grow: 1; width: auto; flex-direction: row; max-width: 10%;">
+                <ui:FloatField value="42,2" name="Min" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1;">
+                <ui:Slider picking-mode="Ignore" value="50" high-value="100" show-input-field="false" name="Slider" style="min-height: auto; -unity-text-align: middle-left; margin-top: 0; margin-bottom: 0; height: 100%; align-items: stretch;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row-reverse; align-self: auto; max-width: 10%;">
+                <ui:FloatField value="0" name="Max" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
